@@ -39,7 +39,7 @@ namespace BowlingGame
                 if (IsStrike(roll))
                 {
                     score += 10 + StrikeBonus(roll);
-                    roll++;
+                    roll += 2;
                 }
                 else if (IsSpare(roll))
                 {
